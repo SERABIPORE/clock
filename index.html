@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+</head>
+<body>
+    <!--Пояснения для главного блока,в котором идет навигация а так же логотип+всякие менюшки-->
+    <header class="page_header">
+        <nav class="page_header-main">
+            <!--После того как была показана стартовая навигация задаём им все значения элементов списка,так как они все по макету одинаковые и можно им заавать одинаковые значения элементов.По методологии БЭМ можно указать что тут у нас данные штуки являются элементами,так как им можно задать одинаковые значения в css. Так же в случае активного элемента можно приписать к классу модификатор в котором можно добавить уникальные значения внешности-->
+            <li class="main_nav_item">
+                <a class="main_nav_link" href="#">Каталог</a>
+
+            </li>
+            <li class="main_nav_item">
+                <a class="main_nav_link" href="#">Акции</a>
+
+            </li>
+            <li class="main_nav_item">
+                <a class="main_nav_link" href="#">Доставка</a>
+
+            </li>
+            <li class="main_nav_item">
+                <a class="main_nav_link" href="#">Контакты</a>
+
+            </li>
+        </nav>
+        <nav class="page_header-user">
+            <!--После того как была показана навигация для сайта задаю им все значения элементов списка,так как они все по макету одинаковые.Тут уже задаю им класс для навигации пользователей так как уже была навигация именно для слов,а тут будут мини иконочки корзины избранного -->
+            <li class="user_nav_item">
+                <a class="user_nav_link" href="#">Каталог</a>
+
+            </li>
+            <li class="user_nav_item">
+                <a class="user_nav_link" href="#">Акции</a>
+
+            </li>
+            <li class="user_nav_item">
+                <a class="user_nav_link" href="#">Доставка</a>
+
+            </li>
+            <li class="user_nav_item">
+                <a class="user_nav_link" href="#">Контакты</a>
+
+            </li>
+        </nav>
+    </header>
+    
+</body>
+</html>
